@@ -1,0 +1,8 @@
+.wrangler/
+node_modules/
+.dev.vars
+.token
+.claude/
+.DS_Store
+# Holds your own database id; copy wrangler.example.jsonc to create it.
+wrangler.jsonc

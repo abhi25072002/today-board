@@ -1,0 +1,13 @@
+{
+  "name": "today-board",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "today-board", "database_id": "YOUR_D1_DATABASE_ID" }
+  ]
+}

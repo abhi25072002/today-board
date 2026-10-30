@@ -1,0 +1,15 @@
+{
+  "name": "today-board",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "db:local": "wrangler d1 execute today-board --local --file schema.sql",
+    "db:remote": "wrangler d1 execute today-board --remote --file schema.sql",
+    "deploy": "wrangler deploy",
+    "icons": "node tools/make-icons.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
+  }
+}
