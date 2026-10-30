@@ -10,6 +10,26 @@ Runs entirely on Cloudflare's free tier: no servers, no cron jobs, no push notif
 
 <sub>Screenshots use demo data.</sub>
 
+## Why I built this
+
+My tasks were everywhere. Job applications sat in Apple Notes, people I meant to message on LinkedIn were in a doc, groceries and errands were in Reminders, and prep topics were in yet another list. Every morning I had to check four places just to figure out what I was supposed to do, and the things I didn't finish yesterday quietly disappeared instead of following me into today. It got overwhelming, and the small stuff kept slipping.
+
+None of those apps did what I actually needed, so I built one that does:
+
+- **One place, opened once a day.** I open it and it shows today: what carried over, what's due, my calendar, and what's coming up this week. No hunting across apps.
+- **Unfinished work follows me.** Anything I didn't get to rolls into today with a "carried N days" badge, so I can see what I keep putting off instead of losing it.
+- **Adding a task takes seconds.** I paste a job link and it becomes `Apply: <Company>` with the real role title. A LinkedIn profile becomes `DM <Name>`. `Groceries: milk, eggs, bread` becomes a checklist. `#prep tomorrow` sets the tag and the day.
+- **Same list on my iPhone and Mac.** Installed as an app on both, works offline, and syncs when I'm back online.
+- **A record of what I actually got done.** The History tab keeps every change like a git log, so I can look back at a week of applications, DMs and prep and see the progress, not just the to-do list.
+- **Free to run.** It lives on Cloudflare's free tier, with no subscription and no server to look after.
+
+### A typical day
+
+1. Open the app in the morning: two carried-over applications, a recruiter reply, groceries, and a 2 PM meeting from Outlook.
+2. Paste three job links from LinkedIn during the day; each one turns into an Apply task with the company and role filled in.
+3. Tick off items as I go, start a system design topic and mark it In progress.
+4. Anything left rolls into tomorrow automatically. On Sunday, History shows how many applications and DMs went out that week.
+
 ## Features
 
 - **Today screen** on every open: carried-over tasks, today's tasks, today's Outlook events, the next 7 days.
